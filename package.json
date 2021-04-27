@@ -16,7 +16,9 @@
     "@types/node": "^14.14.31",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
+    "axios": "^0.21.1",
     "concurrently": "^6.0.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
@@ -27,6 +29,7 @@
     "start:api": "yarn --cwd api start:dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --runInBand --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,6 +45,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "./src/serviceWorker.ts",
+      "./src/index.tsx",
+      ".src/*/*.types.ts"
     ]
   }
 }

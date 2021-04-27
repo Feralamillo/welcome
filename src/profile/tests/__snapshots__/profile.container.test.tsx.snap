@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile> should render loading 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <mock-loader />
+  </div>
+</div>
+`;
+
+exports[`<Profile> should render with data 1`] = `
+<div>
+  <mock-profile-component
+    user="[object Object]"
+  />
+</div>
+`;
+
+exports[`<Profile> should render with error 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      Sorry...there has been an error
+    </div>
+  </div>
+</div>
+`;

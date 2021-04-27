@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProfileComponent > should render the component 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="user-profile"
+    >
+      <img
+        alt="Jim Morrison"
+        class="user-image"
+        src="srcImage"
+      />
+      <h1
+        class="title"
+      >
+        Jim Morrison
+      </h1>
+      <p>
+        My favourite food is 
+        <span
+          class="food"
+        >
+          Pizza
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;
